@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Computadora </title>
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        input[type=text],
+        input[type=email],
+        textarea,
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        div.contenedor-formulario {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    
+<header>
+<h1>¿Computadoras herramientas que facilistas nuestras eficiencia en el trabajo.</h1>
+<nav>
+    <ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="preferencias.html">preferencias</a></li>
+<li><a href="audiovisuales.html">audiovisuales</a></li>
+<li><a class="active"href="contacto.html">contacto</a></li>
+
+</ul>
+</nav>
+
+
+</header>
+
+<h2>!Formulario de contanto ¡</h2>
+<div class="contenedor-formulario">
+
+<form >
+<label for="nombre">Nombre:</label>
+<input type="text" id="nombre" name="nombre" placeholder="Aqui escribe tu nombre" required minlength="3">
+<label for="Apellido">Apellido:</label>
+<input type="text" id="Apellido" name="nombre" placeholder="Aqui escribe tu Apellido" required minlength="3">
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="Aqui escribe tu correo" required minlength="3">
+
+
+<label for="pais">Pais:</label>
+<select name="pais" id="pais">
+    <option value="Salvador">Salvador</option>
+    <option value="mexico"> mexico</option>
+    <option value="EE.UU"> EE.UU</option>
+    <option value="España"> España</option>
+    <option value="Rusia"> Rusia</option>
+    <option value="Hondura">Hondura</option>
+    <option value="Chile">Chile</option>
+    <option value="Cuba">Cuba</option>
+</select>
+<label for="comentario">Comentario:</label>
+<textarea name="comentario" id="comentario"  placeholder="Escriba su comentario Aqui"></textarea>
+<label for="motivo">Motivo de contacto:</label>
+<input type="radio" id="motivo" name="motivo"><i>Soy fan</i>
+<input type="radio" id="motivo" name="motivo"><i>comercial</i>
+<input type="radio" id="motivo" name="motivo"><i>Reclamo</i>
+<input type="radio" id="motivo" name="motivo"><i>Venta</i>
+
+<input type="submit" value="Enviar">
+
+</form>
+
+
+</div>
+<hr>
+<article>
+
+     
+                                                                                          
+ <footer class="footer">  <p> Derecho reservados &copy;2023</p>
+ </footer>
+
+ 
+ 
+
+</article>
+</body>
+</html>
